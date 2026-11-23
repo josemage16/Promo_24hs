@@ -634,11 +634,18 @@ input {
 }
 
 .inactive-message-box {
+  display: block;
   background-color: var(--vida-blue-50);
   border: 2px solid var(--vida-berry-500);
   border-radius: var(--radius-md);
   padding: 1.25rem 1.2rem;
   margin: 1rem 0 1.35rem;
+  transition: background-color 0.18s ease, transform 0.18s ease;
+}
+
+.inactive-message-box:hover {
+  background-color: var(--vida-berry-100);
+  transform: translateY(-1px);
 }
 
 .inactive-message-box p {
@@ -647,6 +654,29 @@ input {
   font-weight: 700;
   color: var(--vida-blue-900);
   line-height: 1.4;
+}
+
+.ig-inline-link {
+  color: var(--vida-berry-600);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.18s ease, opacity 0.18s ease;
+}
+
+.ig-inline-link:hover {
+  color: var(--vida-blue-800);
+}
+
+.ig-inline-link--light {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ig-inline-link--light:hover {
+  color: #ffe3eb;
 }
 
 .inactive-subcopy {
