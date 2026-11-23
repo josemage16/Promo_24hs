@@ -1052,15 +1052,15 @@ input {
   padding: 0.4rem 0.65rem;
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--vida-blue-950);
-  background-color: #ffffff;
-  border: 1.5px solid var(--vida-blue-100);
+  color: #1a2233;
+  background-color: #ffe066;
+  border: 1.5px solid #d4a100;
   border-radius: 7px;
 }
 
 .admin-code-input::placeholder {
-  color: #6b7a94;
-  font-weight: 600;
+  color: #5c4b00;
+  font-weight: 700;
 }
 
 .admin-code-btn {
