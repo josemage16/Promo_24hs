@@ -40,10 +40,9 @@ window.PROMO24_CONFIG = {
     spreadsheetUrl:
       "https://docs.google.com/spreadsheets/d/1d7CoQ_m1gSeWMt0RhTGOvRb3lVELQS_aEFOfKzxnomU/edit?usp=sharing",
     /**
-     * TODO: Pegá aquí la Web App URL generada al implementar google-apps-script/Code.gs
-     * desde tu planilla de Google Sheets.
-     * Ejemplo: "https://script.google.com/macros/s/AKfycb.../exec"
+     * Web App URL generada al implementar google-apps-script/Code.gs
      */
-    appsScriptWebAppUrl: "",
+    appsScriptWebAppUrl:
+      "https://script.google.com/macros/s/AKfycbyEumKcNWqW826Va82lj2jg-VgAUTkGYhbQ3CbAY5_SEu3OPrmN2tu2HHfwDAcdkOYN6Q/exec",
   },
 };
